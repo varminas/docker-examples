@@ -1,0 +1,6 @@
+version: '2'
+services:
+  rest-app-with-docker:
+    build: .
+    ports:
+         - "1234:1234"
