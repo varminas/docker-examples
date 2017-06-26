@@ -3,4 +3,6 @@ services:
   rest-app-with-docker:
     build: .
     ports:
-         - "1234:1234"
+      - "1234:1234"
+    volumes:
+      - /tmp:/tmp
